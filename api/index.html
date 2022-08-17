@@ -1,0 +1,27 @@
+<html>
+  <body>
+    <div id="app"></div>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/jsx">
+            const app = document.getElementById("app")
+            function HomePage() {
+                // ...
+                const [likes, setLikes] = useState()
+              
+                function handleClick() {
+                  setLikes(likes + 1)
+                }}
+              
+                return (
+                  <div>
+                    {/* ... */}
+                    <button onClick={handleClick}>Likes ({likes})</button>
+                  </div>
+                )
+              }
+            ReactDOM.render(<HomePage />, app)
+</script>
+  </body>
+</html>
