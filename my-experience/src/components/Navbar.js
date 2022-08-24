@@ -1,33 +1,60 @@
-import React from 'react'
-import Experirence from './Experience';
-import Experience from "./Experience"
-import Home from "./Home"
+import React,{useState} from "react";
+import Experience from "./Experience";
+import Home from "./Home";
+import Project from "./Project";
+import styled from "styled-components";
+
+const Button =styled.button `
+    color:#666666;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight:bold;
+    border:none;
+    padding:5px 15px;
+    outline:0;
+    cursor:pointer;
+    &:hover{
+        color: #337347;
+    }    
+    `
+  
+const types = ['Home','Experience','Project']
+
+function ToggleGroup(){
+    const [active, setActive] = useState(types[1])
+    return <div>
+        {types.map(type =>(
+            <ButtonToggle
+            active={ active === type}
+            onClick={()=>setActive(type)}
+            key = {type}
+            >
+                {type}
+            </ButtonToggle>
+        ))}
+        <div>
+            {active===types[0] && <Home/>}
+            {active===types[1] && <Experience/>}
+            {active===types[2] && <Project/>}
+        </div>
+    </div>
+}
 
 
-const displaycomponent = false;
+const ButtonToggle =styled(Button)`
+    color:#666666;
+    ${({active}) => active && `
+        color: #337347;
+        border-bottom: solid #337347;
+    `}
+`
 export default function Navbar(){
-    const [count,setCount]=React.useState(3)
-    function first(){
-        setCount(prevCount => 1)
-    }
-    function second(){
-        setCount(prevCount => 2)
-    }
-    function third(){
-        setCount(prevCount => 3)
-    }
-    function fourth (){
-        setCount(prevCount => 4)
-    }
+
     return(
         <div>
             <nav className="navigation--bar">
-                <button onClick={first}>Home</button>
-                <button onClick={second}>About</button>
-                <button onClick={third}>Experience</button>
-                <button onClick={fourth}>Projects</button>
+                <ToggleGroup />
             </nav>
-            {count==1 ? <Home/> : count==2 ? <Experience/> : count==3 ? <Experirence/>: <Experience/>}
         </div>
     )
 }
