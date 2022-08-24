@@ -18,6 +18,9 @@ This website is deploy with Heroku and published at https://glint--yearsofexperi
 
 Figma(https://www.figma.com/file/XZUxnxESFrrXWYGJQ927ib/Glint-Second-Round-Interview-Assignment%3A-Year-of-Experience%3F?node-id=0%3A1)
 ![image](https://github.com/cys9689/Personal-Profile/blob/main/figma_crop.png)
+Page
+![image](https://github.com/cys9689/Personal-Profile/blob/main/page_crop.png)
+
 ## Setup
 Following are the requirements to run this project:
 <li>Node Package Manager(npm)</li>
