@@ -7,6 +7,20 @@ This profile page contain my basic information and work experience,including aca
 <li>CSS</li>
 <li>JavaScript</li>
 <li>ReactJS</li>
+## Dev Dependencies
+
+<li>@coreui/react@4.3.1</li>
+<li>@testing-library/jest-dom@5.16.5</li>
+<li>@testing-library/react@13.3.0</li>
+<li>@testing-library/user-event@13.5.0</li>
+<li>bootstrap@5.2.0</li>
+<li>react-bootstrap@2.5.0</li>
+<li>react-dom@18.2.0</li>
+<li>react-scripts@5.0.1</li>
+<li>react@18.2.0</li>
+<li>styled-components@5.3.5</li>
+<li>web-vitals@2.1.4</li>
+
 
 ## Features
 <li>Tab to access my Linkdin Page</li>
@@ -17,10 +31,10 @@ This website is deploy with Heroku and published at https://glint--yearsofexperi
 ## Screnshots
 
 Figma(https://www.figma.com/file/XZUxnxESFrrXWYGJQ927ib/Glint-Second-Round-Interview-Assignment%3A-Year-of-Experience%3F?node-id=0%3A1)
-![image](https://github.com/cys9689/Personal-Profile/blob/main/figma_crop.png)
+<br></br>
 Page
-![image](https://github.com/cys9689/Personal-Profile/blob/main/page_crop.png)
-
+<br></br>
+<img src="https://github.com/cys9689/Personal-Profile/blob/main/page_crop.png" height="600">
 ## Setup
 Following are the requirements to run this project:
 <li>Node Package Manager(npm)</li>
