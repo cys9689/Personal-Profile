@@ -1,12 +1,14 @@
 # Personal Profile Page (Glint)
 ## General Inforamtion
-This profile page contain my basic information and work experience,including academic and industrial. In the meantime, I include my personal projects and hobby inside the page to provide additional information about myself. I decide to make the UI design similar with Linkdin not only to prove my confidence in replciating a design but considering this type of format for profiling is clean and efficient to see a person's working experience base on the requirement. 
+This profile page contain my basic information and work experience,including academic and industrial. In the meantime, I include my personal projects and hobby inside the page to provide additional information about myself. I decide to make the UI design similar with Linkdin show confidence in replciating a design and thinking this type of format for profiling is clean and efficient to see a person's working experience base on the requirement. 
 
 ## Technologies Used
 <li>HTML</li>
 <li>CSS</li>
 <li>JavaScript</li>
 <li>ReactJS</li>
+
+
 ## Dev Dependencies
 
 <li>@coreui/react@4.3.1</li>
@@ -55,5 +57,10 @@ The page will reload when you make changes.
 
 or you can directly visit https://glint--yearsofexperience.herokuapp.com/
 
+## Project Status
+Completed and open for review
 
+## Features that can be added
+<li> A section allows users to submit their thoughts about my personal experirence or review. </li>
+<li> Introduced a database to store the information above.</li>
 
